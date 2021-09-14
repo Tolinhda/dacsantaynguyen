@@ -1,0 +1,569 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.container
+{
+    width: 100%;
+    height: 3600px;
+    background-color: antiquewhite;
+    
+}
+
+.header
+{
+    width: 100%;
+    height: 730px;
+    background:url("../images/katya-austin-Adg9B8NTxj0-unsplash.jpg");
+    background-size:cover;
+    box-sizing: border-box; 
+}
+.banner
+{
+    width: 100%;
+    height: 70px;
+    
+}
+.logo
+{
+    width: 30%;
+    height: 100px;
+    float:left;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    align-content:center; 
+    
+}
+.menu
+{
+    width: 70%;
+    height: 100px;
+    float:right;
+
+}
+.menu ul
+{
+   list-style: none;
+    
+   
+}
+.menu ul li
+{
+   float: left;  
+   padding: 10px 30px;   
+   position: relative;
+   font-family: fontthuong;
+   color:black;
+
+
+}
+.menu ul li a
+{
+   text-decoration: none;
+   color:antiquewhite;
+}
+
+.menu ul li:hover
+{
+    background-color:brown;    
+}
+
+.menu ul li ul
+{
+    position:absolute;
+    left:-40px;
+    visibility: hidden;
+}
+.menu ul li:hover ul
+{
+    visibility: visible;
+    color:brown;
+}
+    
+.slider 
+{
+    width: 100%;
+    height: 630px; 
+    float:left;
+    padding: 100px 200px ;
+    box-sizing: border-box;
+    font-family: fontdep1;
+    color:antiquewhite;
+        
+}
+        
+@font-face
+{
+    font-family:fontdep;
+    src: url("../font/DancingScript-VariableFont_wght.ttf")
+}
+
+@font-face
+{
+    font-family: fontthuong;
+    src:url("../font/Roboto-Bold.ttf")
+}
+
+@font-face
+{
+    font-family: fontnho;
+    src:url("../font/Roboto-Light.ttf");
+}
+
+
+.slider
+{
+    width: 100%;
+    height:630px;
+    right: 70px;
+    padding: 80px;
+}
+
+.slider1
+{
+    width: 100%;
+    height:630px;
+    font-family: fontthuong;    
+}
+       
+.slider2
+{
+    width: 100%;
+    height:800px;
+    font-family:fontdep;   
+}
+.slider3
+{
+    width: 100%;
+    height:800px;
+    font-family: fontnho;
+    padding: 10px;
+    
+}
+
+button
+{
+    width: 150px;
+    height: 50px;
+    font-family: fontthuong;
+    background-color:brown;
+    color:antiquewhite;
+    border-radius: 40px;
+   
+}
+
+.aboutus
+{
+    width: 100%;
+    height: 400px;
+    background-color:#F2C17B;
+    display: flex;
+    justify-content: center;
+    float:left;
+    margin: 0px 0px;
+}
+
+.aboutusheader01
+{
+    width: 25%;
+    height: 70px;
+    color:brown;
+    
+    float:left;
+    margin:30px;
+    font-family: fontthuong;
+    text-align:center;
+    padding: 25px;
+    box-sizing: border-box;
+      
+}
+.aboutusheader02
+{
+    width: 25%;
+    height: 70px;
+    color:brown;
+   
+    float:left;
+    margin:35px;
+    font-family: fontthuong;
+    text-align:center;
+    padding: 15px;
+    box-sizing: border-box;
+      
+}
+.aboutusheader03
+{
+    width: 25%;
+    height: 70px;
+    color:brown;
+    
+    float:left;
+    margin:32px;
+    font-family: fontthuong;
+    text-align:center;
+    padding: 15px;
+    box-sizing: border-box;
+      
+}
+
+.aboutucontent01
+{
+    width: 80%;
+    height: 200px;
+    color:#646464;
+
+    float:left;
+    margin:10px 35px;
+   font-family:fontdep;
+    text-align:center;
+    padding: 10px;
+    box-sizing: border-box;
+      
+}
+
+.aboutucontent02
+{
+    width: 80%;
+    height: 200px;
+    color:#646464;
+    
+    float:left;
+    margin:10px 35px;
+    font-family:fontdep;
+    text-align:center;
+    padding: 10px;
+    box-sizing: border-box;
+      
+}
+
+.aboutucontent03
+{
+    width: 80%;
+    height: 200px;
+    color:#646464;
+
+    float:left;
+    margin:10px 35px;
+    font-family:fontdep;
+    text-align:center;
+    padding: 10px;
+    box-sizing: border-box;
+      
+}
+.sanphamcover
+{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    padding-top: 140px;
+ 
+    display:flex;
+    justify-content: center;
+    
+}
+.sanphamcover button
+{
+    width: 150px;
+    height: 50px;
+    margin:2px 40px;
+    font-family: fontthuong;
+    background-color:brown;
+    color:antiquewhite;
+    border-radius: 40px;
+    
+}
+.sanphamcover1
+{
+    width: 22%;
+    height: 350px;
+    
+    float: left;
+    margin:-30px 40px;
+}
+
+.sanphamcover2
+{
+    width: 22%;
+    height: 250px;
+    
+    float: left;
+    margin:40px 10px;
+}
+.sanphamcover3
+{
+    width: 22%;
+    height: 350px;
+    
+    float: left;
+    margin:40px 10px;
+    
+}
+.sanphamcover4
+{
+    width: 22%;
+    height: 350px;
+    
+    float: left;
+    margin:40px 10px 40px 20px;
+}
+
+.damdahuongvicafe
+{
+    font-family:fontdep;
+    padding: 60px 15px;
+    text-align: left;
+    
+}
+
+.gioithieuvicafe
+{
+    font-family: fontnho;
+    padding: -20px 40px;
+    
+}
+
+.sanphamloai2
+{
+    width: 100%;
+    height: 450px;
+    margin:30px 30px;
+  
+    display: flex;
+
+    
+   
+}
+.sanphamloai201
+{
+     width: 22%;
+    height: 250px;
+    
+    float: left;
+    margin:0px 20px;
+   
+}
+.sanphamloai202
+{
+    width: 22%;
+    height: 500px;
+    
+    float:left;
+    margin:0px 20px;
+   
+}
+.sanphamloai203
+{
+    width: 22%;
+    height: 500px;
+    
+    float:left;
+    margin:0px 20px;
+   
+}
+.sanphamloai204
+{
+    width: 22%;
+    height: 500px;
+    
+    float:left;
+    margin:0px 20px;
+   
+}
+.sanphamloai2 button
+{
+    width: 150px;
+    height: 40px;
+    margin:2px 25px;
+    font-family: fontnho;
+    background-color:brown;
+    color:antiquewhite;
+    border-radius: 40px;
+    
+}
+
+.xemtatcasanpham
+{
+    width: 30%;
+    height: 100px;
+    
+   
+    margin:-70px 500px 30px;
+    font-family: fontthuong;
+    text-align: center;
+    font-size: 20px;
+    color:brown;
+    padding:40px 10px 20px 10px;
+}
+
+.eventcover
+{
+    width: 80%;
+    height: 900px;
+    margin: 0px 60px 0px 60px;
+   
+}
+
+
+.matongimg
+{
+    width: 40%;
+    height: 400px;
+    background-color:cadetblue;
+    float: left;
+}
+    .matongtext
+{
+    width: 60%;
+    height: 400px;
+    background-color:chocolate;
+    float: left;
+}
+
+    .matongtext1
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    float: left;
+    font-family: fontthuong;
+    text-align: 70px;
+    font-size: 30px;
+    color:antiquewhite;
+    padding: 40px 70px;
+}
+   .matongtext2
+{
+    width: 100%;
+    height: 300px;
+    font-family: fontnho;
+    float: left;
+    margin: 40px 70px;
+    color:antiquewhite;
+}
+
+.matongtext2 button
+{
+    width: 20%;
+    height: 30px;
+    color:#D2691E;
+    background-color:antiquewhite;
+    font-family: fontthuong;
+    border:medium;
+    
+}
+
+.phongsuanh
+{
+    width: 100%;
+    height: 800px;
+    
+    float:left;
+    margin:-450px 0px 0px 60px;
+    display: flex;
+    justify-content:left;
+          
+}
+
+.phongsuanh1
+{
+    width: 24%;
+    height: 400px;
+    
+    float:left;
+  
+          
+}
+.phongsuanh2
+{
+    width: 24%;
+    height: 400px;
+    
+    float:left;
+    
+          
+}.phongsuanh3
+{
+    width: 24%;
+    height: 400px;
+    
+    float:left;
+
+          
+}
+.phongsuanh4
+{
+    width: 24%;
+    height: 400px;
+    
+    float:left;        
+}
+
+.footer
+{
+    width: 100%;
+    height: 450px;
+    background-color:#CCA665;
+    float:left;
+    display: flex;
+    justify-content: center;
+    margin:-450px 0px;
+    
+    
+}
+
+.noidung1
+{
+    width: 25%;
+    height: 300px;
+       
+    font-size: 20pt;
+    box-sizing: border-box;
+    padding: 50px 50px;
+    color:antiquewhite;
+    margin:20px 20px;
+
+    
+    
+}
+
+.noidung2
+{
+    width: 25%;
+    height: 300px;
+    color:antiquewhite;
+    padding: 40px 0px;
+    margin:30px 40px;
+  
+}
+
+.noidung3
+{
+    width: 25%;
+    height: 300px;
+    color:antiquewhite;
+    padding: 40px 0px;
+    margin: 20px;
+
+}
+
+.noidung4
+{
+    width: 70%;
+    height: 300px;
+    color:antiquewhite; 
+    padding: 40px 0px;
+    margin: 0px 20px;
+   
+   
+}
+
